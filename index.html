@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script type="text/javascript" src="form.js"></script>
+	
+</head>
+<body>
+		<br>
+		<br>
+		<h1>Application for Developer-:</h1>
+		<form action="details.html" method="get" onsubmit="passvalues();">
+			<fieldset>
+				<legend>Details</legend>
+				<table id="detail">
+		
+			<tr>
+				<td><label for="name">Name-: </label></td>
+				<td><input type="text" name="name" id="name" placeholder="Name" required></td>
+
+			</tr>
+			<tr>
+				<td><label for="email">Email id-:</label></td>
+				<td><input type="email" name="email" id="email" placeholder="abc123@gmail.com" required></td>
+			</tr>
+			<tr>
+				<td><label for="phone">Phone No-:</label></td>
+				<td><input type="number" name="phone" id="phone" placeholder="1234567890" required></td>
+			</tr>
+
+			<tr>
+				<td><label for="pin">Password-:</label></td>
+				<td><input type="password" name="pin" id="pin" placeholder="Password" required></td>
+			</tr>
+
+			<tr>
+				<td><label for="dob">Date of Birth-:</label></td>
+				<td><input type="date" name="pin" id="dob"  required></td>
+			</tr>
+
+			<tr>
+				<td><label for="color">Choose Color-:</label></td>
+				<td><input type="color"></td>
+			</tr>
+			</table>
+			</fieldset>
+
+			<fieldset>
+				<table>
+				<legend><p>Select Age-:</p></legend>
+				<tr>
+					<td>
+						<input type="radio" name="age" id="noob" value="new born">
+						<label for="noob">0-12</label>
+					</td>
+					<td>
+						<input type="radio" name="age" id="child" value="child">
+						<label for="child">12-18</label>
+					</td>
+					<td>
+						<input type="radio" name="age" id="adult" value="adult">
+						<label for="adult">19-60</label>
+					</td>
+					<td>
+						<input type="radio" name="age" id="SrCitizen" value="SrCitizen">
+						<label for="SrCitizen">above 60</label>
+					</td>
+				</tr>
+				</table>
+			</fieldset>
+						<fieldset>
+				<table>
+				<legend><p>Gender-:</p></legend>
+				<tr>
+					<td>
+						<input type="radio" name="gender" id="male" value="Male">
+						<label for="male">MALE</label>
+					</td>
+					<td>
+						<input type="radio" name="gender" id="female" value="Female">
+						<label for="female">FEMALE</label>
+					</td>
+					<td>
+						<input type="radio" name="gender" id="Trans" value="TeansGender">
+						<label for="Trans">TRANS GENDER</label>
+					</td>
+				</tr>
+				</table>
+			</fieldset>
+			<br>
+			
+			<table>
+				<tr>
+					<td><a href="details.html"><input type="submit" name="Submit"></a></td>
+					<td><input type="reset" name="Reset"></td>
+				</tr>
+			</table>
+
+		</form>
+
+</body>
+</html>		
