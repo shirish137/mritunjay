@@ -19,8 +19,22 @@ function passvalues(){
 	var newgender =document.querySelector('input[name="gender"]:checked').value;
 	localStorage.setItem("kgender",newgender);
 
-	 
-
+	 //receiving checkbox responses
+	x=document.getElementById('chk1');
+	y=document.getElementById('chk2');
+	z=document.getElementById('chk3');
+	var res="";
+	if(x.checked){
+	    res=res+x.value+",";
+	}
+	if(y.checked){
+	  res=res+y.value+",";
+	}
+	if(z.checked){
+	  res=res+z.value+",";
+	}
+	
+        localStorage.setItem('skill',res);
 
 	return true;
 }
