@@ -24,3 +24,5 @@ var genobj = document.querySelector("#gender");
 genobj.textContent = localStorage.getItem("kgender");
 
 
+var resskill=document.getElementById("skill");
+resskill.innerHTML=localStorage.getItem("skill");
