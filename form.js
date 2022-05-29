@@ -25,13 +25,13 @@ function passvalues(){
 	z=document.getElementById('chk3');
 	var res="";
 	if(x.checked){
-	    res=res+x.value+",";
+	    res=res+x.value+" ";
 	}
 	if(y.checked){
-	  res=res+y.value+",";
+	  res=res+y.value+" ";
 	}
 	if(z.checked){
-	  res=res+z.value+",";
+	  res=res+z.value+" ";
 	}
 	
         localStorage.setItem('skill',res);
